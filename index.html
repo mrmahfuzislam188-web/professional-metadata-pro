@@ -144,7 +144,6 @@
             font-weight: 500;
         }
 
-        .btn-tutorial { background: #1e293b; color: #38bdf8; }
         .btn-premium { background: #eab308; color: #0f172a; font-weight: bold; }
 
         .dashboard-body {
@@ -345,9 +344,10 @@
         <div class="navbar">
             <div class="nav-title">AI Core Workspace</div>
             <div class="nav-btn-group">
-                <button class="nav-btn btn-premium" onclick="showPaywall()">View Pricing Planz</button>
+                <button class="nav-btn btn-premium" onclick="showPaywall()">View Pricing Plans</button>
             </div>
         </div>
 
         <div class="dashboard-body">
             <div class="platforms-container">
+                <button class="platform-tab active" onclick="selectPlatform(this, 'Adobe Stock')">Adobe Stock</button>
