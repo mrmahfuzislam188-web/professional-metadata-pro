@@ -20,7 +20,6 @@
             overflow: hidden;
         }
 
-        /* Sidebar Styling */
         .sidebar {
             width: 290px;
             background-color: #0f172a;
@@ -104,7 +103,6 @@
             text-align: center;
         }
 
-        /* Main Content */
         .main-content {
             flex: 1;
             display: flex;
@@ -199,7 +197,6 @@
             padding: 25px;
         }
 
-        /* Upload Box */
         .upload-box {
             border: 2px dashed #1e293b;
             border-radius: 12px;
@@ -222,7 +219,6 @@
             margin-bottom: 10px;
         }
 
-        /* Form Controls */
         .form-row {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -280,7 +276,6 @@
             font-family: monospace; font-size: 13px; color: #cbd5e1; overflow-y: auto;
         }
 
-        /* Paywall Modal */
         .modal-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: rgba(0, 0, 0, 0.85); display: none;
@@ -316,7 +311,6 @@
 </head>
 <body>
 
-    <!-- Sidebar Menu -->
     <div class="sidebar">
         <div class="profile-section">
             <img src="logo.png" alt="Logo" class="profile-img" onerror="this.src='https://flaticon.com'">
@@ -339,7 +333,6 @@
         <p style="font-size: 12px; color: #10b981; margin-top: auto;">● AI Engine Live & Active</p>
     </div>
 
-    <!-- Main Workspace -->
     <div class="main-content">
         <div class="navbar">
             <div class="nav-title">AI Core Workspace</div>
@@ -351,3 +344,7 @@
         <div class="dashboard-body">
             <div class="platforms-container">
                 <button class="platform-tab active" onclick="selectPlatform(this, 'Adobe Stock')">Adobe Stock</button>
+                <button class="platform-tab" onclick="selectPlatform(this, 'Shutterstock')">Shutterstock</button>
+                <button class="platform-tab" onclick="selectPlatform(this, 'Vecteezy')">Vecteezy</button>
+            </div>
+
